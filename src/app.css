@@ -55,14 +55,6 @@
 }
 
 .task button {
-  display: block;
-  padding: 8px 12px;
-  margin-left: auto;
-  background-color: #fecc91;
-  box-shadow: 0 4px 5px 0 rgb(0 0 0 / 5%);
-  border-radius: 3px;
-  border: 0;
-  cursor: pointer;
 }
 
 .pill {
@@ -81,9 +73,10 @@
 }
 
 .deadline span {
-  padding: 3px 8px;
-  border-radius: 2px;
-  display: inline-block;
+  /* padding: 3px 8px;*/
+  /* border-radius: 2px;*/
+  /*display: inline-block;*/
+  @apply py-1 px-2 rounded-sm inline-block;
 }
 
 .normal {
